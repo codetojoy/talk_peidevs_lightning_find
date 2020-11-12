@@ -1,0 +1,19 @@
+INFO Thu Nov 12 16:55:12 AST 2020 fetch 1.120 seconds elapsed
+WARN Thu Nov 12 16:56:22 AST 2020 absurdFetch 1.167 minutes elapsed
+INFO Thu Nov 12 16:55:12 AST 2020 foo 
+INFO Thu Nov 12 16:55:12 AST 2020 bar
+INFO Thu Nov 12 16:55:12 AST 2020 abc
+INFO Thu Nov 12 16:55:12 AST 2020 fetch 1.120 seconds elapsed
+INFO Thu Nov 12 16:55:12 AST 2020 def
+INFO Thu Nov 12 16:55:12 AST 2020 ijk
+INFO Thu Nov 12 16:55:12 AST 2020 xy
+INFO Thu Nov 12 17:06:59 AST 2020 random1
+INFO Thu Nov 12 17:07:00 AST 2020 random2
+INFO Thu Nov 12 17:07:00 AST 2020 random3
+INFO Thu Nov 12 17:07:00 AST 2020 random4
+INFO Thu Nov 12 17:07:00 AST 2020 random5
+INFO Thu Nov 12 17:07:01 AST 2020 random6
+INFO Thu Nov 12 17:07:03 AST 2020 random7
+INFO Thu Nov 12 17:07:05 AST 2020 random8
+INFO Thu Nov 12 17:07:06 AST 2020 random9
+INFO Thu Nov 12 17:07:06 AST 2020 random10
