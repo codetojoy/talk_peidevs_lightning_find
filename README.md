@@ -1,7 +1,7 @@
 
 ### Summary
 
-* [Example1](./Example1.md) 
-* [Example2](./Example2.md) 
-* [Example2b](./Example2b.md) 
-* [Example3](./Example3.md) 
+* [Example1](./doc/Example1.md) 
+* [Example2a](./doc/Example2.md) 
+* [Example2b](./doc/Example2b.md) 
+* [Example3](./doc/Example3.md) 
