@@ -1,29 +1,20 @@
 
-## Example 1
-
-* find files by name
-
-```
-find . -name *.txt
-```
-
 ## Example 2a
+
+Find JSON files and search for "Van Halen", case-insensitive:
 
 ```
 find . -name *.json -exec grep -il van.halen {} \; 
 ```
 
-## Example 2b
+Consider:
 
 ```
-find . -name *.log -exec grep -il "elapsed.*minutes" {} \; 
+for f in files {
+    doSomething(f)
+}
 ```
 
-## Example 3
-```
-find . -name *.jar -exec my_lister.sh {} \; 
-```
-
-* notes:
-    - ./eg_3_bash.sh | sort | uniq -d
-    - ./eg_3_bash.sh | egrep "Logger|FILE"
+Note:
+* `f` is represented by `{}`
+* `doSomething` is between `-exec ... {}\;`
