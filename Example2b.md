@@ -1,29 +1,9 @@
 
-## Example 1
-
-* find files by name
-
-```
-find . -name *.txt
-```
-
-## Example 2a
-
-```
-find . -name *.json -exec grep -il van.halen {} \; 
-```
-
 ## Example 2b
 
-```
-find . -name *.log -exec grep -il "elapsed.*minutes" {} \; 
-```
+* [setup](./Example_2b_setup.md) 
+* Search logs for expensive operations:
 
-## Example 3
 ```
-find . -name *.jar -exec my_lister.sh {} \; 
+find . -name *.log -exec grep -i elapsed {} \; 
 ```
-
-* notes:
-    - ./eg_3_bash.sh | sort | uniq -d
-    - ./eg_3_bash.sh | egrep "Logger|FILE"
