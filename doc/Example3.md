@@ -5,14 +5,14 @@
 
 ```
 ROOT_DIR=$PWD
-find . -name *.jar -exec $ROOT_DIR/my_lister.sh {} \; 
+find . -name *.jar -exec $ROOT_DIR/my_jar_lister.sh {} \; 
 ```
 
 * Again:
 
 ```
 for f in files {
-    my_lister.sh f
+    my_jar_lister.sh f
 }
 ```
 
