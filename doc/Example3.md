@@ -7,7 +7,19 @@
 find . -name *.jar -exec my_lister.sh {} \; 
 ```
 
-* demo:
+* Again:
+
+```
+for f in files {
+    doSomething(f)
+}
+```
+
+Note:
+* `f` is represented by `{}`
+* `doSomething` is between `-exec ... {}\;`
+
+* demo notes:
 
 ```
 find . -name *.jar -exec my_lister.sh {} \; | sort | uniq -d
