@@ -1,7 +1,7 @@
 
 ## Example 1
 
-* find files by name
+Find `txt` files, recursively:
 
 ```
 find . -name *.txt
