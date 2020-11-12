@@ -13,3 +13,15 @@ find . -name *.log -exec grep elapsed {} \;
 ```
 find . -name *.log -exec grep minutes.*elapsed {} \; 
 ```
+
+* Consider:
+
+```
+for f in files {
+    doSomething(f)
+}
+```
+
+* Note:
+    - `f` is represented by `{}`
+    - `doSomething` is between `-exec ... {}\;`
