@@ -4,7 +4,8 @@
 * [setup](./Example3_setup.md)
 
 ```
-find . -name *.jar -exec my_lister.sh {} \; 
+ROOT_DIR=$PWD
+find . -name *.jar -exec $ROOT_DIR/my_lister.sh {} \; 
 ```
 
 * Again:
