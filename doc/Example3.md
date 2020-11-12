@@ -11,13 +11,9 @@ find . -name *.jar -exec my_lister.sh {} \;
 
 ```
 for f in files {
-    doSomething(f)
+    my_lister.sh f
 }
 ```
-
-Note:
-* `f` is represented by `{}`
-* `doSomething` is between `-exec ... {}\;`
 
 * demo notes:
 
