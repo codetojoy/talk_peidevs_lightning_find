@@ -2,8 +2,14 @@
 ## Example 2b
 
 * [setup](./Example2b_setup.md) 
-* Search logs for expensive operations:
+* Search logs for elapsed times:
 
 ```
-find . -name *.log -exec grep -i elapsed {} \; 
+find . -name *.log -exec grep elapsed {} \; 
+```
+
+* Especially minutes (!!):
+
+```
+find . -name *.log -exec grep "minutes.*elapsed" {} \; 
 ```
