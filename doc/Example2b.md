@@ -24,4 +24,4 @@ for f in files {
 
 * Note:
     - `f` is represented by `{}`
-    - `doSomething` is between `-exec ... {}\;`
+    - `doSomething` is between `-exec ... \;`
