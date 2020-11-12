@@ -11,5 +11,5 @@ find . -name *.log -exec grep elapsed {} \;
 * Especially minutes (!!):
 
 ```
-find . -name *.log -exec grep "minutes.*elapsed" {} \; 
+find . -name *.log -exec grep minutes.*elapsed {} \; 
 ```
